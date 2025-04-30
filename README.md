@@ -1,17 +1,65 @@
-ce jeu casse brique est entièrement en langage C
-pour exécuter le code plus facilement il doit etre dans un environnement linux 
+# 🎮 Casse-Brique en C – Jeu Console
 
-Installation pour le casse brique:
-1) Dans le Terminal:
---> su -
---> apt update
---> apt upgrade
---> apt install libsdl2-dev
-2) Faire un dossier casse brique
-3) Mettre function.c et function.h dans le dossier casse brique
-5) Dans le Terminal : gcc -o main main.c function.c -lSDL2
-6) Puis : ./main
-FIN
+Ce jeu de **Casse-Brique** a été développé entièrement en **langage C**. Il utilise la bibliothèque **SDL2** pour l'interface graphique, et il doit être exécuté dans un environnement **Linux** pour une installation et une exécution faciles.
 
-Des questions ?  mon Linkedin sans hésiter Safiatou Diallo 
-je répondrais si j ai la réponse ! 
+---
+
+## 📁 Organisation des fichiers
+
+Voici la structure des fichiers dans le projet :
+
+- `main.c` : le fichier principal du jeu
+- `game.c` : gestion de la logique du jeu
+- `game.h` : déclaration des fonctions du jeu
+- `function.c` : fonctions utilitaires
+- `function.h` : déclarations des fonctions utilitaires
+- `README.md` : documentation du projet
+- `OFL.txt` : licence Open Font License (si nécessaire pour la police utilisée)
+- `Police.ttf` : fichier de la police utilisée pour le jeu
+
+---
+## 🖥️ Cloner le projet
+
+Pour cloner ce projet et y accéder directement depuis votre terminal, utilisez la commande suivante :
+
+```bash
+git clone https://github.com/SafiDial/jeu-casse-brique.git
+
+## ▶️ Compilation du jeu
+
+Pour compiler et exécuter le jeu sur un système Linux, suivez les étapes ci-dessous :
+
+1. **Installer la bibliothèque SDL2** :
+   Ouvrez un terminal et tapez les commandes suivantes pour installer les dépendances nécessaires :
+   
+   ```bash
+   su -  # Devenir super utilisateur
+   apt update  # Mettre à jour les packages
+   apt upgrade  # Mettre à jour les packages existants
+   apt install libsdl2-dev  # Installer la bibliothèque SDL2
+
+
+2. **Compiler le jeu :**
+
+   ```bash
+gcc -o main main.c function.c -lSDL2
+
+3.**Exécuter le jeu :**
+
+   ```bash
+./main
+
+
+## 🔚 REMERCIEMENTS 
+
+Merci d'avoir consulté ce projet ! 🎮  
+J'espère que vous apprécierez jouer à **Casse-Brique** et que vous trouverez ce projet intéressant.  
+N'hésitez pas à me faire part de vos retours ou suggestions pour améliorer le jeu !
+
+Si vous souhaitez contribuer ou poser des questions, vous pouvez me contacter via **Email : safi076711@gmail.com**.
+
+---
+
+Bonne partie, et à bientôt !🚀
+
+
