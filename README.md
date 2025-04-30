@@ -22,7 +22,6 @@ Voici la structure des fichiers dans le projet :
 
 Pour cloner ce projet et y accéder directement depuis votre terminal, utilisez la commande suivante :
 
-```bash
 git clone https://github.com/SafiDial/jeu-casse-brique.git
 
 ## ▶️ Compilation du jeu
@@ -32,7 +31,6 @@ Pour compiler et exécuter le jeu sur un système Linux, suivez les étapes ci-d
 1. **Installer la bibliothèque SDL2** :
    Ouvrez un terminal et tapez les commandes suivantes pour installer les dépendances nécessaires :
    
-   ```bash
    su -  # Devenir super utilisateur
    apt update  # Mettre à jour les packages
    apt upgrade  # Mettre à jour les packages existants
@@ -41,12 +39,10 @@ Pour compiler et exécuter le jeu sur un système Linux, suivez les étapes ci-d
 
 2. **Compiler le jeu :**
 
-   ```bash
 gcc -o main main.c function.c -lSDL2
 
 3.**Exécuter le jeu :**
 
-   ```bash
 ./main
 
 
