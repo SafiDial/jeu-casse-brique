@@ -39,11 +39,11 @@ Pour compiler et exécuter le jeu sur un système Linux, suivez les étapes ci-d
 
 2. **Compiler le jeu :**
 
-gcc -o main main.c function.c -lSDL2
+   gcc -o main main.c function.c -lSDL2
 
 3.**Exécuter le jeu :**
 
-./main
+  ./main
 
 
 ## 🔚 REMERCIEMENTS 
